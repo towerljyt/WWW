@@ -1,0 +1,13 @@
+环境：需要服务器或VPS：Win+apache+php5.4-5.6+mysql
+
+警告Linux系统无法正常运行本程序 请使用Win服务器搭建
+
+1.将压缩包解压到根目录
+
+2.导入“OHC.SQL”文件
+
+3.修改数据库文件“APP\Conf\config.php”
+
+4.进入后台“你的域名/ohcadmin.php”
+
+5.账户“admin”密码“admin”
