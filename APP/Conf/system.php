@@ -70,7 +70,7 @@ return array (
   'sms_type' => '2',
   'everyday_rose' => 0,
   'everyday_drop' => 0,
-  'everyday_last_time' => 1562342461,
+  'everyday_last_time' => 1562648246,
   'recharge_type' => 2,
   'adurl' => '【TTC健康币】  公开认筹！ 刚出一秒，招收大型团队  速度注册
 世界卫生组织发行代币TTC（橘子健康币）。系统于2018年4月19日正式上线交易运行，现内测同时全球同步免费送出100万台微矿，送完为止，所有注册实名会员免费赠送1台微型云矿机。推广还有六级提成及矿机丰厚奖励.
