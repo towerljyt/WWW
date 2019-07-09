@@ -137,8 +137,8 @@
 	<!--顶部结束-->
 	<!--矿车列表-->
 	<div style="width: 90%;margin-left: 5%;margin-top: 20px;overflow:hidden;border-radius:5px">
-		<p id="qiugou_list"onclick='showhidediv("qiugou")'style="float: left;width: 100%;text-align: center;background-color:#FFA500;height: 30px;line-height: 30px;color:#fff;border-bottom-left-radius: 5px;border-top-left-radius: 5px">买入OHC</p>
-		<!-- <p id="chushou_list" onclick='showhidediv("chushou")'style="float: left;width: 50%;text-align: center;background-color: #fff;height: 30px;line-height: 30px;border-top-right-radius: 5px;border-bottom-right-radius: 5px">卖出OHC</p>
+		<p id="qiugou_list"onclick='showhidediv("qiugou")'style="float: left;width: 100%;text-align: center;background-color:#FFA500;height: 30px;line-height: 30px;color:#fff;border-bottom-left-radius: 5px;border-top-left-radius: 5px">买入TTC</p>
+		<!-- <p id="chushou_list" onclick='showhidediv("chushou")'style="float: left;width: 50%;text-align: center;background-color: #fff;height: 30px;line-height: 30px;border-top-right-radius: 5px;border-bottom-right-radius: 5px">卖出TTC</p>
 	 -->
 		</div>
 	<div id="qiugou" style="padding-bottom:50px;background-color:#fff;margin-top:0px;width:100%;margin-left:0%">

@@ -56,14 +56,14 @@
 		
     </div>
 	<div style=" position:fixed; bottom:60px;">
-		<p  style="margin-top:-20px;height: 30px;line-height: 30px;font-size:12px;"><span id="drGEC" style="font-size:3em;color:#fff"><?php echo ($jrsy); ?></span>&nbsp;&nbsp;&nbsp;OHC</p>
+		<p  style="margin-top:-20px;height: 30px;line-height: 30px;font-size:12px;"><span id="drGEC" style="font-size:3em;color:#fff"><?php echo ($jrsy); ?></span>&nbsp;&nbsp;&nbsp;TTC</p>
 		<p  style="height: 30px;line-height: 30px;color:#fff;margin-top:10px;">当前算力：<span><?php echo ($gonglv); ?></span>&nbsp;GH/s</p>
-		<p style="height: 30px;line-height: 30px;font-size:12px;color:#aaa;">累计获得：<span id="ljGEC"><?php echo ($total_sy); ?></span>&nbsp;OHC</p>
+		<p style="height: 30px;line-height: 30px;font-size:12px;color:#aaa;">累计获得：<span id="ljGEC"><?php echo ($total_sy); ?></span>&nbsp;TTC</p>
 
 		<p  style="height: 30px;line-height: 30px;font-size:12px;color:#aaa;">全网总算力：<span><?php echo ($qwsl); ?></span>&nbsp;GH/s</p>
 		
 		
-	        <!--<p  style="height: 30px;line-height: 30px;font-size:10px;color:#aaa;">全网总产量：<span><?php echo ($data_b_total); ?></span>&nbsp;OHC</p>-->
+	        <!--<p  style="height: 30px;line-height: 30px;font-size:10px;color:#aaa;">全网总产量：<span><?php echo ($data_b_total); ?></span>&nbsp;TTC</p>-->
 	</div>
 	
 	

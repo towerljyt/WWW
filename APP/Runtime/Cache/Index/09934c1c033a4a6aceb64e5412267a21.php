@@ -105,15 +105,15 @@
             </div>-->
             <div data-v-6248d0b3="" class="user-money" style="background: #f1f1f1;">
                 <div data-v-6248d0b3="">
-                    可用(OHC)
+                    可用(TTC)
                     <p data-v-6248d0b3=""><?php echo (four_number($minfo["jinbi"])); ?></p>
                 </div>
                 <div data-v-6248d0b3="">
-                    总资产(OHC)
+                    总资产(TTC)
                     <p data-v-6248d0b3=""><?php echo (four_number($minfo["jinbi"])); ?></p>
                 </div>
                 <div data-v-6248d0b3="">
-                    冻结(OHC)
+                    冻结(TTC)
                     <p data-v-6248d0b3=""><?php echo (four_number($minfo["qjinbi"])); ?></p>
                 </div>
             </div>
