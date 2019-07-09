@@ -12,7 +12,7 @@
 	<link href="/Public/gec/web/fonts/iconfont.css" rel="stylesheet">
 	<script src="/Public/gec/web/js/layer.js"></script>
 	<link rel="stylesheet" href="/Public/gec/web/css/stylef.css"/>
-	
+	<link rel="icon" href="/Public/gec/images/log.ico">
 	
 
 </head>
