@@ -43,7 +43,7 @@
 		<div>
   <ul style="width:90%;padding-top:15%;margin-left:5%">
   
-		<li style="width:50%;float:left;text-align:center;color:#ffffff;background-color:#FFA500;height: 30px;line-height: 30px;"><a style="color:#ffffff" href="<?php echo U('Index/msg/addmsg');?>" >在线留言</a></li>
+		<li style="width:50%;float:left;text-align:center;color:#ffffff;background-color:#72ABE8;height: 30px;line-height: 30px;"><a style="color:#ffffff" href="<?php echo U('Index/msg/addmsg');?>" >在线留言</a></li>
         
     
     <li style="width:50%;float:left;text-align:center;color:#000;background-color:#fff;height: 30px;line-height: 30px;border-bottom-right-radius: 5px;border-top-right-radius:5px;">
@@ -62,7 +62,7 @@
 		<h3>内容</h3>
 		<textarea placeholder="内容" name="content" style='width:100%;height:100px;border-radius:5px;border:1px solid #ccc;'></textarea>
 	
-		<input type="submit" value="提交" style="width:100%;border-radius:5px;height:30px;background-color:#FFA500;border:0px; margin-top:10px; color:#ffffff;"/>
+		<input type="submit" value="提交" style="width:100%;border-radius:5px;height:30px;background-color:#72ABE8;border:0px; margin-top:10px; color:#ffffff;"/>
 	</form>
 </div>    
 	<!-- 上传图片 -->
@@ -153,10 +153,10 @@
 	<div class="footer">
     <ul>
         
-       <li><a href="<?php echo U('Index/Shop/plist');?>" class="block"><i class="fa fa-university" style="color:#D2691E;"></i>矿机商城</a></li>
-		<li><a href="<?php echo U('Index/Shop/orderlist');?>" class="block"><i class="fa fa-cart-arrow-down" style="color:#D2691E;"></i>我的矿机</a></li>
-		<li><a href="<?php echo U('Index/Emoney/index');?>" class="block"><i class="fa fa-line-chart" style="color:#D2691E;"></i>交易中心</a></li>
-        <li style="width:24%" ><a href="/" class="block"><i class="fa fa-laptop" style="color:#D2691E;"></i>个人首页</a></li>
+       <li><a href="<?php echo U('Index/Shop/plist');?>" class="block"><i class="fa fa-university" style="color:#72ABE8;"></i>矿机商城</a></li>
+		<li><a href="<?php echo U('Index/Shop/orderlist');?>" class="block"><i class="fa fa-cart-arrow-down" style="color:#72ABE8;"></i>我的矿机</a></li>
+		<li><a href="<?php echo U('Index/Emoney/index');?>" class="block"><i class="fa fa-line-chart" style="color:#72ABE8;"></i>交易中心</a></li>
+        <li style="width:24%" ><a href="/" class="block"><i class="fa fa-laptop" style="color:#72ABE8;"></i>个人首页</a></li>
     </ul>
 </div>
 	<!--底部结束-->

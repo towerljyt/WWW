@@ -12,6 +12,7 @@
     <link href="/Public/gec/web/css/font-awesome.min.css" rel="stylesheet">
     <link href="/Public/gec/web/fonts/iconfont.css" rel="stylesheet">
     <script src="/Public/js/layer/layer.js"></script>
+	<link rel="icon" href="/Public/gec/images/log.ico">
 </head>
 <body>
 <!--顶部开始-->
@@ -27,7 +28,7 @@
 <style>
 .mytable tr td{ padding:10px 0px;}
 .aall{ border-radius:4px; color:#666666; padding:3px 15px; width:37%; display:inline-block;}
-.foncus{ background:#FFA500; color:#ffffff;}
+.foncus{ background:#72ABE8; color:#ffffff;}
 .huibtn{ background:#ccc !important; color:#ffffff !important;}
 </style>
 <div style=" width:100%; margin:10px auto; text-align:center;">
@@ -66,7 +67,7 @@
                 <td><?php echo (four_number($v["already_profit"])); ?></td>
                 <td>
                 
-                <?php if($v['zt'] == 1): ?><a href="javascript:;"  <?php if($v['is_jiesuan'] == 0): ?>class="huibtn"<?php endif; ?> onClick="jiesuan(<?php echo ($v["id"]); ?>)" style="padding:3px 5px; background:#FFA500; color:#FFFFFF; border-radius:4px;">结算收益</a>
+                <?php if($v['zt'] == 1): ?><a href="javascript:;"  <?php if($v['is_jiesuan'] == 0): ?>class="huibtn"<?php endif; ?> onClick="jiesuan(<?php echo ($v["id"]); ?>)" style="padding:3px 5px; background:#72ABE8; color:#FFFFFF; border-radius:4px;">结算收益</a>
                 <?php else: ?>
                 	---<?php endif; ?>
                 
@@ -95,10 +96,10 @@
 	<div class="footer">
     <ul>
         
-       <li><a href="<?php echo U('Index/Shop/plist');?>" class="block"><i class="fa fa-university" style="color:#D2691E;"></i>矿机商城</a></li>
-		<li><a href="<?php echo U('Index/Shop/orderlist');?>" class="block"><i class="fa fa-cart-arrow-down" style="color:#D2691E;"></i>我的矿机</a></li>
-		<li><a href="<?php echo U('Index/Emoney/index');?>" class="block"><i class="fa fa-line-chart" style="color:#D2691E;"></i>交易中心</a></li>
-        <li style="width:24%" ><a href="/" class="block"><i class="fa fa-laptop" style="color:#D2691E;"></i>个人首页</a></li>
+       <li><a href="<?php echo U('Index/Shop/plist');?>" class="block"><i class="fa fa-university" style="color:#72ABE8;"></i>矿机商城</a></li>
+		<li><a href="<?php echo U('Index/Shop/orderlist');?>" class="block"><i class="fa fa-cart-arrow-down" style="color:#72ABE8;"></i>我的矿机</a></li>
+		<li><a href="<?php echo U('Index/Emoney/index');?>" class="block"><i class="fa fa-line-chart" style="color:#72ABE8;"></i>交易中心</a></li>
+        <li style="width:24%" ><a href="/" class="block"><i class="fa fa-laptop" style="color:#72ABE8;"></i>个人首页</a></li>
     </ul>
 </div>
 	<!--底部结束-->

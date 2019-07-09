@@ -19,7 +19,7 @@
 		display:none;
             width: 100%;
             height: 30px;
-            background: #FFA500;
+            background: #72ABE8;
         }
         #chartNav a{
             float: left;
@@ -31,7 +31,7 @@
             color: #666666;
         }
         #chartNav a:hover,#chartNav a.active{
-            background:#FFA500;
+            background:#72ABE8;
             color: #fff;
             -webkit-transform: all 0.3s;
             -moz-transform: all 0.3s;
@@ -56,7 +56,7 @@
             font-weight: 600;
 			padding-left:0;
 			padding-left:16px;
-			background: #FF9728;
+			background: #3374EB;
         }
 		 #myhend>div:last-child{
 		 text-align:center;
@@ -82,16 +82,16 @@
 			width:50%;
 			text-align:center;
 			line-height:30px;
-			color:#FFA500;
+			color:#72ABE8;
 		}
 		#mynav a:hover{
 			transition:all 0.5s;
-			background:#FFA500;
+			background:#72ABE8;
 			color:#fff;
 		}
 		#mynav a.active{
 			transition:all 0.5s;
-			background:#FFA500;
+			background:#72ABE8;
 			color:#fff;
 		}
     </style> 
@@ -109,7 +109,7 @@
    <!--
     	<form >
 			<input type="text" name="lkb" id="mcsl" placeholder="请输入要卖出数量"  onpaste="this.value=this.value.replace(/[^\d]/g,'')" onkeyup="this.value=this.value.replace(/[^\d]/g,'')" style="width:60%"/>
-			<button type="submit" id="nnn" style="float:right;width:33%;margin-top:-22px;background-color:#FFA500;height: 30px;line-height: 30px;background-color:#FFA500;height: 30px;line-height: 30px;border-radius:5px;border:0px;color:#fff">卖出</button>
+			<button type="submit" id="nnn" style="float:right;width:33%;margin-top:-22px;background-color:#72ABE8;height: 30px;line-height: 30px;background-color:#72ABE8;height: 30px;line-height: 30px;border-radius:5px;border:0px;color:#fff">卖出</button>
 		</form>
 		  --> 
    <form action="Index/PersonalSet/seedCode" method="post"> 
@@ -161,10 +161,10 @@
 	<div class="footer">
     <ul>
         
-       <li><a href="<?php echo U('Index/Shop/plist');?>" class="block"><i class="fa fa-university" style="color:#D2691E;"></i>矿机商城</a></li>
-		<li><a href="<?php echo U('Index/Shop/orderlist');?>" class="block"><i class="fa fa-cart-arrow-down" style="color:#D2691E;"></i>我的矿机</a></li>
-		<li><a href="<?php echo U('Index/Emoney/index');?>" class="block"><i class="fa fa-line-chart" style="color:#D2691E;"></i>交易中心</a></li>
-        <li style="width:24%" ><a href="/" class="block"><i class="fa fa-laptop" style="color:#D2691E;"></i>个人首页</a></li>
+       <li><a href="<?php echo U('Index/Shop/plist');?>" class="block"><i class="fa fa-university" style="color:#72ABE8;"></i>矿机商城</a></li>
+		<li><a href="<?php echo U('Index/Shop/orderlist');?>" class="block"><i class="fa fa-cart-arrow-down" style="color:#72ABE8;"></i>我的矿机</a></li>
+		<li><a href="<?php echo U('Index/Emoney/index');?>" class="block"><i class="fa fa-line-chart" style="color:#72ABE8;"></i>交易中心</a></li>
+        <li style="width:24%" ><a href="/" class="block"><i class="fa fa-laptop" style="color:#72ABE8;"></i>个人首页</a></li>
     </ul>
 </div>
 	<!--底部结束-->

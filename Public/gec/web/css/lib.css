@@ -51,7 +51,7 @@ i,em{
 /*顶部*/
 .header{
   height: 40px;
-  background:#D2691E;
+  background:#72ABE8;
   color: #fff;
   line-height: 40px;
   position: fixed;
@@ -398,7 +398,7 @@ border-top: 1px solid #DBDBDB;
 }
 
 
-#pages{ text-align:center; margin-top:20px; background:#D2691E;}
+#pages{ text-align:center; margin-top:20px; background:#72ABE8;}
 
 #pages a{ display:inline-block; padding:2px 6px; color:#ffffff;}
 
