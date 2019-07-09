@@ -58,7 +58,7 @@ box-sizing: border-box;
     <div style="background: rgba();padding: 0 20px 220px;"> 
      <!--<div class="logo" style="text-align: center"><img src="/Public/gec/web/img/logon.png" style="width:70%;margin: auto;"></div>--> 
      <div id="content" style="background: url('/Public/gec/web/img/body_bg.jpg') no-repeat center;background-size:100% 100%;overflow: auto"> 
-      <div style="background: rgba();padding: 0 20px 80px;"> 
+      <div style="background: rgba();padding: 0 20px 80px; margin-top:160px;"> 
        <img src="/Public/gec/web/img/logon.png" style="width:36%;margin-left:32%;margin-top:30px;border-radius:10px;margin-bottom:10px" /> 
       </div> 
       <!-- logo E --> 

@@ -14,6 +14,7 @@
   <link href="/PUBLIC/gec/web/fonts/iconfont.css" rel="stylesheet" /> 
   <script src="/PUBLIC/js/layer/layer.js"></script> 
   <link rel="stylesheet" href="/PUBLIC/gec/web/css/style.css" /> 
+  <link rel="icon" href="/Public/gec/images/log.ico">
   <style>
         #chartNav{
 		display:none;

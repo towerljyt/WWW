@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="/Public/gec/Home/css/weui.min.css">
     <link rel="stylesheet" href="/Public/gec/web/css/jquery-weui.min.css">
 	<link rel="stylesheet" type="text/css" href="/Public/gec/web/css/li.css">
-
+    <link rel="icon" href="/Public/gec/images/log.ico">
 </head>
 
 <header class="hearder clearfix"><a href="javascript:history.go(-1);"></a> <strong>用户注册</strong></header>
 <body style="background-color: #eee">
 
 <body style="background-color: #eee">
-<div style="position: fixed;z-index: -1000;width: 100%;height: 100vh;top:0;left: 0;"><img src="/Public/gec/web/img/body_bg.jpg" style="width:100%;height: 100vh"></div>
+<div style="position: fixed;z-index: -1000;width: 100%;height: 100vh;top:0;left: 0;"><img src="/Public/gec/web/img/body_bg-zc.jpg" style="width:100%;height: 100vh"></div>
 	<div id="logo"style="margin: 0 auto;padding: 10px 0; width: 90%; height: auto;text-align: center;margin-top: 20px">
-		<img src="/Public/gec/web/img/logon.png" id="logo" style="width:60%;margin-top:10px;border-radius:10px;margin-bottom:10px" alt=""/>
+		<!--<img src="/Public/gec/web/img/logon.png" id="logo" style="width:60%;margin-top:10px;border-radius:10px;margin-bottom:10px" alt=""/>-->
+		<div style="width:60%;height:350px;margin-top:10px;border-radius:10px;margin-bottom:10px"></div>
 	</div>
 	<span style="font-size:14px;text-align:center;color:#000000;margin-left:4%">温馨提示：支付宝账号默认为注册账号，请用开通了支付宝的账号进行注册！</span>
 	
