@@ -12,7 +12,7 @@
 	<link href="/Public/gec/web/fonts/iconfont.css" rel="stylesheet">
 	<script src="/Public/gec/web/js/layer.js"></script>
 	<link rel="stylesheet" href="/Public/gec/web/css/stylef.css"/>
-	
+	<link rel="icon" href="/Public/gec/images/log.ico">
 	
 
 </head>
@@ -49,7 +49,7 @@
 	<!--<input type="text" id="copy-num" readonly value="<?php echo ($tuiguangma); ?>" style="width:60%;line-height:30px;margin-top:50px;padding:0px 5px;"/>-->
 	<p><textarea id="copy-num" readonly style="width:80%; height:360px;margin-top:50px; border:1px solid #ccc;"><?php echo ($adurl2); ?></textarea></p>
     
-   <p style="margin:5px 0px;"> <span class="" onclick="jsCopy()" style="cursor:pointer; padding:5px 10px; color:#FFFFFF; background: #FFA500; border-radius:4px; width:80%; display:inline-block; margin:0 auto;">复制</span></p>
+   <p style="margin:5px 0px;"> <span class="" onclick="jsCopy()" style="cursor:pointer; padding:5px 10px; color:#FFFFFF; background: #72ABE8; border-radius:4px; width:80%; display:inline-block; margin:0 auto;">复制</span></p>
   <!--<h3 class="box-title" style="color: #333;/* background: #FF8201; */ text-align: center;border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;font-size: 18px;padding: 10px 0;">触屏版长按下面图片可查看并分享</h3>
 <img src="<?php echo ($erwei); ?>" style="width:95%;height:100%;margin-top:3%;">-->
                      
@@ -66,10 +66,10 @@
 	<div class="footer">
     <ul>
         
-       <li><a href="<?php echo U('Index/Shop/plist');?>" class="block"><i class="fa fa-university" style="color:#D2691E;"></i>矿机商城</a></li>
-		<li><a href="<?php echo U('Index/Shop/orderlist');?>" class="block"><i class="fa fa-cart-arrow-down" style="color:#D2691E;"></i>我的矿机</a></li>
-		<li><a href="<?php echo U('Index/Emoney/index');?>" class="block"><i class="fa fa-line-chart" style="color:#D2691E;"></i>交易中心</a></li>
-        <li style="width:24%" ><a href="/" class="block"><i class="fa fa-laptop" style="color:#D2691E;"></i>个人首页</a></li>
+       <li><a href="<?php echo U('Index/Shop/plist');?>" class="block"><i class="fa fa-university" style="color:#72ABE8;"></i>矿机商城</a></li>
+		<li><a href="<?php echo U('Index/Shop/orderlist');?>" class="block"><i class="fa fa-cart-arrow-down" style="color:#72ABE8;"></i>我的矿机</a></li>
+		<li><a href="<?php echo U('Index/Emoney/index');?>" class="block"><i class="fa fa-line-chart" style="color:#72ABE8;"></i>交易中心</a></li>
+        <li style="width:24%" ><a href="/" class="block"><i class="fa fa-laptop" style="color:#72ABE8;"></i>个人首页</a></li>
     </ul>
 </div>
 	<!--底部结束-->

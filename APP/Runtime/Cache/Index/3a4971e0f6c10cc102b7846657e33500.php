@@ -68,7 +68,7 @@
 		    </table>
 								  
 <div style="text-align:center; margin-top:30px;">
-<input id="btnback" class="buttom" onclick="javascript:window.history.go(-1)" type="button"value="返 回" style=" width:80%; border-radius:4px; padding:5px 10px; border:0px; background:#FFA500; color:#ffffff;"/>
+<input id="btnback" class="buttom" onclick="javascript:window.history.go(-1)" type="button"value="返 回" style=" width:80%; border-radius:4px; padding:5px 10px; border:0px; background:#72ABE8; color:#ffffff;"/>
 </div>
 
 
@@ -115,10 +115,10 @@
 	<div class="footer">
     <ul>
         
-       <li><a href="<?php echo U('Index/Shop/plist');?>" class="block"><i class="fa fa-university" style="color:#D2691E;"></i>矿机商城</a></li>
-		<li><a href="<?php echo U('Index/Shop/orderlist');?>" class="block"><i class="fa fa-cart-arrow-down" style="color:#D2691E;"></i>我的矿机</a></li>
-		<li><a href="<?php echo U('Index/Emoney/index');?>" class="block"><i class="fa fa-line-chart" style="color:#D2691E;"></i>交易中心</a></li>
-        <li style="width:24%" ><a href="/" class="block"><i class="fa fa-laptop" style="color:#D2691E;"></i>个人首页</a></li>
+       <li><a href="<?php echo U('Index/Shop/plist');?>" class="block"><i class="fa fa-university" style="color:#72ABE8;"></i>矿机商城</a></li>
+		<li><a href="<?php echo U('Index/Shop/orderlist');?>" class="block"><i class="fa fa-cart-arrow-down" style="color:#72ABE8;"></i>我的矿机</a></li>
+		<li><a href="<?php echo U('Index/Emoney/index');?>" class="block"><i class="fa fa-line-chart" style="color:#72ABE8;"></i>交易中心</a></li>
+        <li style="width:24%" ><a href="/" class="block"><i class="fa fa-laptop" style="color:#72ABE8;"></i>个人首页</a></li>
     </ul>
 </div>
 	<!--底部结束-->

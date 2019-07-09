@@ -25,7 +25,7 @@
 		<input type="hidden" name="uid" value="1">
     	<!--<input type="text" placeholder="用户名,只能使用数字,字母,汉字且长度为1-6" name="username" required="required" id="name" pattern="[A-Za-z0-9\u4e00-\u9fa5]{1,6}" title="只能使用数字,字母,汉字且长度为1-6">-->
 		<div style=" margin: 0 auto;width: 94%;border-radius: 5px;">
-		<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #ff9728;
+		<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #3374EB;
 border-radius: 40px;
 box-sizing: border-box;
 width: 90%;
@@ -33,12 +33,12 @@ height: 12vw;
 margin: 10px 1rem;
 padding: 10 5%;
 background: #fff;
-color: #ff9728;
+color: #3374EB;
 text-indent: 10px;
 outline: none;">
 				手机账号：		<input name="mobile"  id="mobile"  value="" maxlength="11" type="text" style="width: 70%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;" autocomplete="off" placeholder="请输入手机号" /> 
 			</div>
-			<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #ff9728;
+			<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #3374EB;
 border-radius: 40px;
 box-sizing: border-box;
 width: 90%;
@@ -46,13 +46,13 @@ height: 12vw;
 margin: 10px 1rem;
 padding: 10 5%;
 background: #fff;
-color: #ff9728;
+color: #3374EB;
 text-indent: 10px;
 outline: none;">
 				邮箱账号：		<input name="email"  id="email"  value="" maxlength="50" type="text" style="width: 70%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;" autocomplete="off" placeholder="请输入邮箱" /> 
 			</div>
 		
-             <div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #ff9728;
+             <div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #3374EB;
 border-radius: 40px;
 box-sizing: border-box;
 width: 90%;
@@ -60,14 +60,14 @@ height: 12vw;
 margin: 10px 1rem;
 padding: 10 5%;
 background: #fff;
-color: #ff9728;
+color: #3374EB;
 text-indent: 10px;
 outline: none;">
 				图形验证码：<input type="text" placeholder="图形验证码" required id="verify" name="verify" style="width: 40%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;">
 				<img src="<?php echo U('Sem/verify');?>" onClick="this.src='<?php echo U('Sem/verify','','');?>?'+Math.random();" width="60" height="25">
            </div>       
             
-			<div class="code" style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #ff9728;
+			<div class="code" style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #3374EB;
 border-radius: 40px;
 box-sizing: border-box;
 width: 90%;
@@ -75,7 +75,7 @@ height: 12vw;
 margin: 10px 1rem;
 padding: 10 5%;
 background: #fff;
-color: #ff9728;
+color: #3374EB;
 text-indent: 10px;
 outline: none;">
 				验证码：<input type="text" placeholder="邮箱验证码" name="code" required id="code" class="fl"style="width:40%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;">
@@ -83,7 +83,7 @@ outline: none;">
 			</div>
 			
 			<!--
-              <div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #ff9728;
+              <div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #3374EB;
 border-radius: 40px;
 box-sizing: border-box;
 width: 90%;
@@ -91,13 +91,13 @@ height: 12vw;
 margin: 10px 1rem;
 padding: 10 5%;
 background: #fff;
-color: #ff9728;
+color: #3374EB;
 text-indent: 10px;
 outline: none;">
 				支付宝账号：<input type="text" placeholder="请输入支付宝账号" required name="zhifubao" style="width: 70%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;">
 			</div>   
             
-            <div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #ff9728;
+            <div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #3374EB;
 border-radius: 40px;
 box-sizing: border-box;
 width: 90%;
@@ -105,7 +105,7 @@ height: 12vw;
 margin: 10px 1rem;
 padding: 10 5%;
 background: #fff;
-color: #ff9728;
+color: #3374EB;
 text-indent: 10px;
 outline: none;">
 				微信号：<input type="text" placeholder="请输入微信号" required name="weixin" style="width: 70%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;">
@@ -113,7 +113,7 @@ outline: none;">
  -->           
             
             
-			<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #ff9728;
+			<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #3374EB;
 border-radius: 40px;
 box-sizing: border-box;
 width: 90%;
@@ -121,12 +121,12 @@ height: 12vw;
 margin: 10px 1rem;
 padding: 10 5%;
 background: #fff;
-color: #ff9728;
+color: #3374EB;
 text-indent: 10px;
 outline: none;">
 				登陆密码：<input type="password" placeholder="请输入登录密码" required name="password" style="width: 70%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;">
 			</div>
-			<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #ff9728;
+			<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #3374EB;
 border-radius: 40px;
 box-sizing: border-box;
 width: 90%;
@@ -134,13 +134,13 @@ height: 12vw;
 margin: 10px 1rem;
 padding: 10 5%;
 background: #fff;
-color: #ff9728;
+color: #3374EB;
 text-indent: 10px;
 outline: none;">
 			  	确定密码：<input type="password" placeholder="确定登录密码" required name="password1" style="width: 70%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;">
 			</div>
 			
-			<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #ff9728;
+			<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #3374EB;
 border-radius: 40px;
 box-sizing: border-box;
 width: 90%;
@@ -148,12 +148,12 @@ height: 12vw;
 margin: 10px 1rem;
 padding: 10 5%;
 background: #fff;
-color: #ff9728;
+color: #3374EB;
 text-indent: 10px;
 outline: none;">
 				交易密码：<input type="password" placeholder="请输入安全密码" required name="password2" style="width: 70%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;">
 			</div>
-			<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #ff9728;
+			<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #3374EB;
 border-radius: 40px;
 box-sizing: border-box;
 width: 90%;
@@ -161,12 +161,12 @@ height: 12vw;
 margin: 10px 1rem;
 padding: 10 5%;
 background: #fff;
-color: #ff9728;
+color: #3374EB;
 text-indent: 10px;
 outline: none;">
 			  	确定密码：<input type="password" placeholder="确定安全密码" required  name="password21" style="width: 70%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;">
 			</div>
-			<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #ff9728;
+			<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;border: 1px solid #3374EB;
 border-radius: 40px;
 box-sizing: border-box;
 width: 90%;
@@ -174,7 +174,7 @@ height: 12vw;
 margin: 10px 1rem;
 padding: 10 5%;
 background: #fff;
-color: #ff9728;
+color: #3374EB;
 text-indent: 10px;
 outline: none;">
 				推荐人账号：		<input name="tjr"  id="tjr"  value="" maxlength="11" type="text" style="width: 70%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;" autocomplete="off" placeholder="请输入手机号" /> 

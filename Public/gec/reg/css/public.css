@@ -475,7 +475,7 @@ input[type=submit] {
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 400;
-	color: #ff9728
+	color: #3374EB
 }
 
 .shop-list-set .iconfont {
@@ -553,7 +553,7 @@ input[type=submit] {
 }
 
 .sign-form input {
-	border: 1px solid #ff9728;
+	border: 1px solid #3374EB;
 	border-radius: 40px;
 	box-sizing: border-box;
 	width: 90%;
@@ -561,13 +561,13 @@ input[type=submit] {
 	margin: 10px 1rem;
 	padding: 0 5%;
 	background: #fff;
-	color: #ff9728;
+	color: #3374EB;
 	text-indent: 10px;
 	outline: none
 }
 
 .sign-form input[type=button] {
-	background: #ff9728;
+	background: #3374EB;
 	color: #fff
 }
 
@@ -578,7 +578,7 @@ input[type=submit] {
 .sign-set a {
 	float: left;
 	font-size: 12px;
-	color: #ff9728
+	color: #3374EB
 }
 
 .sign-set a:last-child {
@@ -601,7 +601,7 @@ input[type=submit] {
 	color: #fff;
 	border-top-right-radius: 40px;
 	border-bottom-right-radius: 40px;
-	background-color: #ff9728
+	background-color: #3374EB
 }
 
 .code-container {
@@ -785,7 +785,7 @@ input[type=submit] {
 .busin-head {
 	/*background: url(../img/title-bg.jpg) no-repeat 50%;
 	background-size: cover*/
-	background: #FF9728;
+	background: #3374EB;
 }
 
 .system-setting i {
@@ -1658,7 +1658,7 @@ a.weui-media-box:active {
 	padding: 3px 0;
 	box-sizing: border-box;
 	/*background-color: #35495e*/
-	background: #FF9728;
+	background: #3374EB;
 }
 
 .vux-header .vux-header-title {
@@ -1882,7 +1882,7 @@ a.weui-media-box:active {
 
 .weui-btn_primary {
 	/*background-color: #1aad19*/
-	background-color: #FF9728;
+	background-color: #3374EB;
 }
 
 .weui-btn_primary:not(.weui-btn_disabled):visited {
@@ -1891,11 +1891,11 @@ a.weui-media-box:active {
 
 .weui-btn_primary:not(.weui-btn_disabled):active {
 	color: hsla(0, 0%, 100%, .6);
-	background-color: #ff9728
+	background-color: #3374EB
 }
 
 .weui-btn_warn {
-	background-color: #FF9728
+	background-color: #3374EB
 }
 
 .weui-btn_warn:not(.weui-btn_disabled):visited {
@@ -3112,7 +3112,7 @@ input.weui-switch[disabled] {
 	bottom: 0;
 	left: 0;
 	/*background-color: #04be02;*/
-	background-color: #FF9728;
+	background-color: #3374EB;
 	text-align: center
 }
 
@@ -3162,8 +3162,8 @@ input.weui-switch[disabled] {
 }
 
 .vux-tab .vux-tab-item.vux-tab-selected {
-	color: #ff9728;
-	border-bottom: 3px solid #ff9728
+	color: #3374EB;
+	border-bottom: 3px solid #3374EB
 }
 
 .vux-tab .vux-tab-item.vux-tab-disabled {
@@ -7335,7 +7335,7 @@ footer[data-v-532b39a4] {
 }
 
 .kefu-tips h4[data-v-6d5022b3] {
-	color: #FF9728
+	color: #3374EB
 }
 
 .busin-head-container[data-v-bbe11e4a] {
@@ -7454,7 +7454,7 @@ footer[data-v-532b39a4] {
 }
 
 .sale-container[data-v-bbe11e4a] {
-	background-color: #ff9728
+	background-color: #3374EB
 }
 
 .business-container>span[data-v-bbe11e4a] {
@@ -7491,7 +7491,7 @@ footer[data-v-532b39a4] {
 }
 
 .buy-container input[data-v-bbe11e4a] {
-	background-color: #FF9728;
+	background-color: #3374EB;
 	color: #fff;
 	border: 1px solid #fff
 }
@@ -7528,12 +7528,12 @@ footer[data-v-532b39a4] {
 }
 
 .buy-container button[data-v-bbe11e4a] {
-	color: #FF9728;
+	color: #3374EB;
 	background-color: #ffe4e1
 }
 
 .sale-container button[data-v-bbe11e4a] {
-	color: #ff9728
+	color: #3374EB
 }
 
 .get-more[data-v-bbe11e4a] {
@@ -7706,7 +7706,7 @@ footer[data-v-532b39a4] {
 .weui-tabbar__item.weui-bar__item_on .weui-tabbar__icon,
 .weui-tabbar__item.weui-bar__item_on .weui-tabbar__icon>i,
 .weui-tabbar__item.weui-bar__item_on .weui-tabbar__label {
-	color: #FF9728
+	color: #3374EB
 }
 
 .weui-tabbar__icon {

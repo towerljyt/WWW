@@ -13,6 +13,7 @@
 	<link href="/Public/gec/web/css/font-awesome.min.css" rel="stylesheet">
 	<link href="/Public/gec/web/fonts/iconfont.css" rel="stylesheet">
 	<script src="/Public/gec/web/js/layer.js"></script>
+	<link rel="icon" href="/Public/gec/images/log.ico">
 </head>
 </head>
 <body>
@@ -67,7 +68,7 @@
 <style>
 .mytable tr td{ padding:10px 0px;}
 .aall{ border-radius:4px; color:#666666; padding:3px 15px; width:37%; display:inline-block;}
-.foncus{ background:#FFA500; color:#ffffff;}
+.foncus{ background:#72ABE8; color:#ffffff;}
 .huibtn{ background:#ccc !important; color:#ffffff !important;}
 </style>
 
@@ -100,8 +101,8 @@ position: relative;">
 								<?php if($vo["zt"] == 2): ?>已经结束<?php endif; ?>															
 				</p>		
 			</div>
-	<?php if($vo["zt"] == 0): ?><p style="height:70px;line-height:70px;text-align:right;width:15%; display:inline-block;"><a href="<?php echo U('Shop/wakuang',array('id'=>$vo['id']));?>" style=" height:30px;line-height:30px;color: #fff;margin-top: 0px;display:block;position:absolute;right:10px;top:50%;margin-top: -15px;font-size: 16px;padding: 3px 5px;background-color: #FFA500;border: 0px solid #fff;border-radius: 4px;">运行</a></p><?php endif; ?>
-	<?php if($vo["zt"] == 1): ?><p style="height:70px;line-height:70px;text-align:right;width:15%; display:inline-block;"><a href="<?php echo U('Shop/wakuang',array('id'=>$vo['id']));?>" style=" height:30px;line-height:30px;color: #fff;margin-top: -30px;display:block;position:absolute;right:10px;top:30%;margin-top: 0px;font-size:16px;padding: 5px;background-color: #FFA500;border: 0px solid #fff;border-radius: 4px;">查看</a></p><?php endif; ?>			
+	<?php if($vo["zt"] == 0): ?><p style="height:70px;line-height:70px;text-align:right;width:15%; display:inline-block;"><a href="<?php echo U('Shop/wakuang',array('id'=>$vo['id']));?>" style=" height:30px;line-height:30px;color: #fff;margin-top: 0px;display:block;position:absolute;right:10px;top:50%;margin-top: -15px;font-size: 16px;padding: 3px 5px;background-color: #72ABE8;border: 0px solid #fff;border-radius: 4px;">运行</a></p><?php endif; ?>
+	<?php if($vo["zt"] == 1): ?><p style="height:70px;line-height:70px;text-align:right;width:15%; display:inline-block;"><a href="<?php echo U('Shop/wakuang',array('id'=>$vo['id']));?>" style=" height:30px;line-height:30px;color: #fff;margin-top: -30px;display:block;position:absolute;right:10px;top:30%;margin-top: 0px;font-size:16px;padding: 5px;background-color: #72ABE8;border: 0px solid #fff;border-radius: 4px;">查看</a></p><?php endif; ?>			
 				<div style="width:60%;display:inline-block;">
 					
 				</div>
@@ -129,10 +130,10 @@ position: relative;">
 	<div class="footer">
     <ul>
         
-       <li><a href="<?php echo U('Index/Shop/plist');?>" class="block"><i class="fa fa-university" style="color:#D2691E;"></i>矿机商城</a></li>
-		<li><a href="<?php echo U('Index/Shop/orderlist');?>" class="block"><i class="fa fa-cart-arrow-down" style="color:#D2691E;"></i>我的矿机</a></li>
-		<li><a href="<?php echo U('Index/Emoney/index');?>" class="block"><i class="fa fa-line-chart" style="color:#D2691E;"></i>交易中心</a></li>
-        <li style="width:24%" ><a href="/" class="block"><i class="fa fa-laptop" style="color:#D2691E;"></i>个人首页</a></li>
+       <li><a href="<?php echo U('Index/Shop/plist');?>" class="block"><i class="fa fa-university" style="color:#72ABE8;"></i>矿机商城</a></li>
+		<li><a href="<?php echo U('Index/Shop/orderlist');?>" class="block"><i class="fa fa-cart-arrow-down" style="color:#72ABE8;"></i>我的矿机</a></li>
+		<li><a href="<?php echo U('Index/Emoney/index');?>" class="block"><i class="fa fa-line-chart" style="color:#72ABE8;"></i>交易中心</a></li>
+        <li style="width:24%" ><a href="/" class="block"><i class="fa fa-laptop" style="color:#72ABE8;"></i>个人首页</a></li>
     </ul>
 </div>
 	<!--底部结束-->

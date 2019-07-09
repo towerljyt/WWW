@@ -13,6 +13,7 @@
 	<link href="/Public/gec/web/css/font-awesome.min.css" rel="stylesheet">
 	<link href="/Public/gec/web/fonts/iconfont.css" rel="stylesheet">
 	<script src="/Public/gec/web/js/layer.js"></script>
+	<link rel="icon" href="/Public/gec/images/log.ico">
 </head>
 </head>
 <body>
@@ -67,7 +68,7 @@
 <style>
 .mytable tr td{ padding:10px 0px;}
 .aall{ border-radius:4px; color:#666666; padding:3px 15px; width:37%; display:inline-block;}
-.foncus{ background:#FFA500; color:#ffffff;}
+.foncus{ background:#72ABE8; color:#ffffff;}
 .huibtn{ background:#ccc !important; color:#ffffff !important;}
 </style>
 
@@ -103,10 +104,10 @@ position: relative;">
 				</p>		
 			</div>
 	<if condition = "$vo.zt eq 0">		
-		<p style="height:70px;line-height:70px;text-align:right;width:15%; display:inline-block;"><a href="{:U('Shop/wakuang',array('id'=>$vo['id']))}" style=" height:30px;line-height:30px;color: #fff;margin-top: 0px;display:block;position:absolute;right:10px;top:50%;margin-top: -15px;font-size: 16px;padding: 3px 5px;background-color: #FFA500;border: 0px solid #fff;border-radius: 4px;">运行</a></p>                                                                                                                                             
+		<p style="height:70px;line-height:70px;text-align:right;width:15%; display:inline-block;"><a href="{:U('Shop/wakuang',array('id'=>$vo['id']))}" style=" height:30px;line-height:30px;color: #fff;margin-top: 0px;display:block;position:absolute;right:10px;top:50%;margin-top: -15px;font-size: 16px;padding: 3px 5px;background-color: #72ABE8;border: 0px solid #fff;border-radius: 4px;">运行</a></p>                                                                                                                                             
 	</if>
 	<if condition = "$vo.zt eq 1">	
-		<p style="height:70px;line-height:70px;text-align:right;width:15%; display:inline-block;"><a href="{:U('Shop/wakuang',array('id'=>$vo['id']))}" style=" height:30px;line-height:30px;color: #fff;margin-top: -30px;display:block;position:absolute;right:10px;top:30%;margin-top: 0px;font-size:16px;padding: 5px;background-color: #FFA500;border: 0px solid #fff;border-radius: 4px;">查看</a></p>
+		<p style="height:70px;line-height:70px;text-align:right;width:15%; display:inline-block;"><a href="{:U('Shop/wakuang',array('id'=>$vo['id']))}" style=" height:30px;line-height:30px;color: #fff;margin-top: -30px;display:block;position:absolute;right:10px;top:30%;margin-top: 0px;font-size:16px;padding: 5px;background-color: #72ABE8;border: 0px solid #fff;border-radius: 4px;">查看</a></p>
 	</if>			
 				<div style="width:60%;display:inline-block;">
 					

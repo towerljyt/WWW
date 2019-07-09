@@ -14,12 +14,13 @@
 	<link href="/PUBLIC/gec/web/fonts/iconfont.css" rel="stylesheet">
 	<script src="/PUBLIC/js/layer/layer.js"></script>
 	<link rel="stylesheet" href="/PUBLIC/gec/web/css/style.css"/>
+	<link rel="icon" href="/Public/gec/images/log.ico">
 	<style>
         #chartNav{
 		display:none;
             width: 100%;
             height: 30px;
-            background: #FFA500;
+            background: #72ABE8;
         }
         #chartNav a{
             float: left;
@@ -31,7 +32,7 @@
             color: #666666;
         }
         #chartNav a:hover,#chartNav a.active{
-            background:#FFA500;
+            background:#72ABE8;
             color: #fff;
             -webkit-transform: all 0.3s;
             -moz-transform: all 0.3s;
@@ -56,7 +57,7 @@
             font-weight: 600;
 			padding-left:0;
 			padding-left:16px;
-			background: #FF9728;
+			background: #3374EB;
         }
 		 #myhend>div:last-child{
 		 text-align:center;
@@ -82,16 +83,16 @@
 			width:50%;
 			text-align:center;
 			line-height:30px;
-			color:#FFA500;
+			color:#72ABE8;
 		}
 		#mynav a:hover{
 			transition:all 0.5s;
-			background:#FFA500;
+			background:#72ABE8;
 			color:#fff;
 		}
 		#mynav a.active{
 			transition:all 0.5s;
-			background:#FFA500;
+			background:#72ABE8;
 			color:#fff;
 		}
     </style>
@@ -137,7 +138,7 @@
 	<!--顶部结束-->
 	<!--矿车列表-->
 	<div style="width: 90%;margin-left: 5%;margin-top: 20px;overflow:hidden;border-radius:5px">
-		<p id="qiugou_list"onclick='showhidediv("qiugou")'style="float: left;width: 100%;text-align: center;background-color:#FFA500;height: 30px;line-height: 30px;color:#fff;border-bottom-left-radius: 5px;border-top-left-radius: 5px">买入TTC</p>
+		<p id="qiugou_list"onclick='showhidediv("qiugou")'style="float: left;width: 100%;text-align: center;background-color:#72ABE8;height: 30px;line-height: 30px;color:#fff;border-bottom-left-radius: 5px;border-top-left-radius: 5px">买入TTC</p>
 		<!-- <p id="chushou_list" onclick='showhidediv("chushou")'style="float: left;width: 50%;text-align: center;background-color: #fff;height: 30px;line-height: 30px;border-top-right-radius: 5px;border-bottom-right-radius: 5px">卖出TTC</p>
 	 -->
 		</div>
@@ -147,16 +148,16 @@
  style="width:60%"/>
 		<input type="text" name="price" id="mmp" placeholder="请输入购买单价"style="width:60%" />
 		<!--<input type="password" name="password_m" id="password_m" placeholder="请输入手机验证码"style="width:60%"/>
-        <span class="fr" id="count_down2" onClick="send_sms_reg_code2()" style="background-color: #FFA500; float:right;display: inline-block; height:30px; line-height:30px;width: 33%;text-align: center;font-size: 1em;padding: 0px 0 0px;border-radius: 5px">发送验证码</span>
+        <span class="fr" id="count_down2" onClick="send_sms_reg_code2()" style="background-color: #72ABE8; float:right;display: inline-block; height:30px; line-height:30px;width: 33%;text-align: center;font-size: 1em;padding: 0px 0 0px;border-radius: 5px">发送验证码</span>
         -->
         
-		<button type="submit" id="mmm" style="float:right;width:33%;margin-top:-25px;background-color:#FFA500;height: 30px;line-height: 30px;background-color:#FFA500;height: 30px;line-height: 30px;border-radius:5px;border:0px;color:#fff">买入</button>
+		<button type="submit" id="mmm" style="float:right;width:33%;margin-top:-25px;background-color:#72ABE8;height: 30px;line-height: 30px;background-color:#72ABE8;height: 30px;line-height: 30px;border-radius:5px;border:0px;color:#fff">买入</button>
 	</form>
 
       <div style="width:90%; margin:0 auto;">
     	<form action="<?php echo U('index/emoney/index');?>" method="get">
        <input type="text" name="p_id" style=" width:60%;" placeholder="请输入会员手机号">
-       	   <input type="submit" style=" width:33%;height: 30px; float:right;line-height: 30px;background-color:#FFA500;height: 30px;line-height: 30px;border-radius:5px;border:0px;color:#fff; text-align:center;" value="查找用户">
+       	   <input type="submit" style=" width:33%;height: 30px; float:right;line-height: 30px;background-color:#72ABE8;height: 30px;line-height: 30px;border-radius:5px;border:0px;color:#fff; text-align:center;" value="查找用户">
         
         
         </form>
@@ -180,13 +181,13 @@
 				<td class="lkMoney" style="padding:10px 0;text-align:center;"><?php echo ($v["lkb"]); ?></td>
 				<td style="padding:10px 0;text-align:center;"><span  class="money" ><?php echo ($v["jb"]); ?></span></td>
 				<?php if($v["zt"] == 0): ?><td style="padding:5px 0;text-align:center;"><input class="ppid" type="hidden" value="<?php echo ($v["id"]); ?>">
-					<button style="background-color: 	#FFA500;width: 100%;height: 90% ;border: 0px;border-radius: 5px;color: #FFFFFF;cursor: pointer;" class="btnchushou">卖出</button>
+					<button style="background-color: 	#72ABE8;width: 100%;height: 90% ;border: 0px;border-radius: 5px;color: #FFFFFF;cursor: pointer;" class="btnchushou">卖出</button>
 				</td><?php endif; ?>
 				<?php if($v["zt"] == 1): ?><td style="padding:5px 0;text-align:center;"><input class="ppid" type="hidden" value="<?php echo ($v["id"]); ?>">
 					<button style="background-color:#666;width: 100%;height: 90% ;border: 0px;border-radius: 5px;color: #FFFFFF;cursor: pointer;" >交易中</button>
 				</td><?php endif; ?>
 				<?php if($v["zt"] == 2): ?><td style="padding:5px 0;text-align:center;"><input class="ppid" type="hidden" value="<?php echo ($v["id"]); ?>">
-					<button style="background-color: 	#FFA500;width: 100%;height: 90% ;border: 0px;border-radius: 5px;color: #FFFFFF;cursor: pointer;" class="wancheng">交易完成</button>
+					<button style="background-color: 	#72ABE8;width: 100%;height: 90% ;border: 0px;border-radius: 5px;color: #FFFFFF;cursor: pointer;" class="wancheng">交易完成</button>
 				</td><?php endif; ?>
 			</tr><?php endforeach; endif; ?>
 
@@ -198,12 +199,12 @@
 		<input type="text" name="lkb" id="mcsl" placeholder="请输入要卖出数量"  onpaste="this.value=this.value.replace(/[^\d]/g,'')" onkeyup="this.value=this.value.replace(/[^\d]/g,'')" style="width:60%"/>
 		<input type="text" name="price" id="mcpic" placeholder="请输入卖出单价"style="width:60%"/>
        <!-- <input type="text" name="password_n" id="password_n" placeholder="请输入手机验证码"style="width:60%"/>
-        <span class="fr" id="count_down" onClick="send_sms_reg_code()" style="background-color: #FFA500; float:right;display: inline-block; height:30px; line-height:30px;width: 33%;text-align: center;font-size: 1em;padding: 0px 0 0px;border-radius: 5px">发送验证码</span>-->
+        <span class="fr" id="count_down" onClick="send_sms_reg_code()" style="background-color: #72ABE8; float:right;display: inline-block; height:30px; line-height:30px;width: 33%;text-align: center;font-size: 1em;padding: 0px 0 0px;border-radius: 5px">发送验证码</span>-->
 		<?php if($level > 0): ?><!--<input type="text" name="zdjy" id="mmp" placeholder="请输入指定买家手机号"style="width:60%"/>--><?php endif; ?>
         
         <!--<p style="width:36%; font-size:12px; color:#F00; line-height:18px; position:absolute; top:10px; right:3px;">定向交易：输入对方的手机号码，交易价格将不受市场限制！</p>-->
         
-		<button type="submit" id="nnn" style="float:right;width:33%;margin-top:-22px;background-color:#FFA500;height: 30px;line-height: 30px;background-color:#FFA500;height: 30px;line-height: 30px;border-radius:5px;border:0px;color:#fff">卖出</button>
+		<button type="submit" id="nnn" style="float:right;width:33%;margin-top:-22px;background-color:#72ABE8;height: 30px;line-height: 30px;background-color:#72ABE8;height: 30px;line-height: 30px;border-radius:5px;border:0px;color:#fff">卖出</button>
 	</form>
     
      
@@ -226,13 +227,13 @@
 					<td class="lkMoney" style="padding:10px 0;text-align:center;"><?php echo ($v["lkb"]); ?></td>
 					<td class="money" style="padding:10px 0;text-align:center;"><?php echo ($v["jb"]); ?></td>
 					<?php if($v["zt"] == 0): ?><td style="padding:5px 0;text-align:center;"><input class="ppid" type="hidden" value="<?php echo ($v["id"]); ?>">
-							<button style="background-color: 	#FFA500;width: 100%;height: 90% ;border: 0px;border-radius: 5px;color: #FFFFFF;cursor: pointer;" class="btnsc">买入</button>
+							<button style="background-color: 	#72ABE8;width: 100%;height: 90% ;border: 0px;border-radius: 5px;color: #FFFFFF;cursor: pointer;" class="btnsc">买入</button>
 						</td><?php endif; ?>
 					<?php if($v["zt"] == 1): ?><td style="padding:5px 0;text-align:center;"><input class="ppid" type="hidden" value="<?php echo ($v["id"]); ?>">
 							<button style="background-color:#666;width: 100%;height: 90% ;border: 0px;border-radius: 5px;color: #FFFFFF;cursor: pointer;" >交易中</button>
 						</td><?php endif; ?>
 					<?php if($v["zt"] == 2): ?><td style="padding:5px 0;text-align:center;"><input class="ppid" type="hidden" value="<?php echo ($v["id"]); ?>">
-							<button style="background-color: 	#FFA500;width: 100%;height: 90% ;border: 0px;border-radius: 5px;color: #FFFFFF;cursor: pointer;" class="wancheng">交易完成</button>
+							<button style="background-color: 	#72ABE8;width: 100%;height: 90% ;border: 0px;border-radius: 5px;color: #FFFFFF;cursor: pointer;" class="wancheng">交易完成</button>
 						</td><?php endif; ?>
 				</tr><?php endforeach; endif; ?>
 
@@ -249,10 +250,10 @@
 	<div class="footer">
     <ul>
         
-       <li><a href="<?php echo U('Index/Shop/plist');?>" class="block"><i class="fa fa-university" style="color:#D2691E;"></i>矿机商城</a></li>
-		<li><a href="<?php echo U('Index/Shop/orderlist');?>" class="block"><i class="fa fa-cart-arrow-down" style="color:#D2691E;"></i>我的矿机</a></li>
-		<li><a href="<?php echo U('Index/Emoney/index');?>" class="block"><i class="fa fa-line-chart" style="color:#D2691E;"></i>交易中心</a></li>
-        <li style="width:24%" ><a href="/" class="block"><i class="fa fa-laptop" style="color:#D2691E;"></i>个人首页</a></li>
+       <li><a href="<?php echo U('Index/Shop/plist');?>" class="block"><i class="fa fa-university" style="color:#72ABE8;"></i>矿机商城</a></li>
+		<li><a href="<?php echo U('Index/Shop/orderlist');?>" class="block"><i class="fa fa-cart-arrow-down" style="color:#72ABE8;"></i>我的矿机</a></li>
+		<li><a href="<?php echo U('Index/Emoney/index');?>" class="block"><i class="fa fa-line-chart" style="color:#72ABE8;"></i>交易中心</a></li>
+        <li style="width:24%" ><a href="/" class="block"><i class="fa fa-laptop" style="color:#72ABE8;"></i>个人首页</a></li>
     </ul>
 </div>
 	<!--底部结束-->
@@ -284,7 +285,7 @@
 			if (id == "qiugou") {
 				zhengzai.style.display = 'none';
 				qiugou.style.display = 'block';
-				qiugoubg.style.backgroundColor = " 	#FFA500"
+				qiugoubg.style.backgroundColor = " 	#72ABE8"
 				qiugoubg.style.color = "#fff"
 				zhengzaibg.style.backgroundColor = "#fff";
 				zhengzaibg.style.color = "#000";
@@ -293,7 +294,7 @@
 				qiugou.style.display = 'none';
 				qiugoubg.style.backgroundColor = "#fff";
 				qiugoubg.style.color = "#000";
-				zhengzaibg.style.backgroundColor = " 	#FFA500";
+				zhengzaibg.style.backgroundColor = " 	#72ABE8";
 				zhengzaibg.style.color = "#fff";
 			}
 		}
@@ -328,7 +329,7 @@ $(".btnchushou").click(function(){
 				var html='';
 					html+='USD：'+huilv+'<br>'+'RMB：'+data.rmb+'<br>'
 					html+='<input type="password" name="password_m" id="password_m" placeholder="请输入交易密码"style="width:40%; height:33px;  border:1px solid #ccc;"/>';
-					//html+='<span class="fr" id="count_down2" onClick="send_sms_reg_code2()" style="background-color: #FFA500; display: inline-block; height:30px; line-height:30px;width: 29%;text-align: center;font-size: 1em;padding: 0px 0 0px;border-radius: 5px; color:#ffffff;margin-left:5px;">发送</span>';
+					//html+='<span class="fr" id="count_down2" onClick="send_sms_reg_code2()" style="background-color: #72ABE8; display: inline-block; height:30px; line-height:30px;width: 29%;text-align: center;font-size: 1em;padding: 0px 0 0px;border-radius: 5px; color:#ffffff;margin-left:5px;">发送</span>';
 				
                 $.confirm(html,"确定提交？",function(){
 					
@@ -475,7 +476,7 @@ $(function(){
 
            var html='';
 					html+='<input type="text" name="password_n" id="password_n" placeholder="请输入交易密码"style="width:40%; height:33px;  border:1px solid #ccc;"/>';
-					//html+='<span class="fr" id="count_down" onClick="send_sms_reg_code()" style="background-color: #FFA500; display: inline-block; height:30px; line-height:30px;width: 29%;text-align: center;font-size: 1em;padding: 0px 0 0px;border-radius: 5px; color:#ffffff;margin-left:5px;">发送</span>';
+					//html+='<span class="fr" id="count_down" onClick="send_sms_reg_code()" style="background-color: #72ABE8; display: inline-block; height:30px; line-height:30px;width: 29%;text-align: center;font-size: 1em;padding: 0px 0 0px;border-radius: 5px; color:#ffffff;margin-left:5px;">发送</span>';
 				
                 $.confirm(html,"确定提交？",function(){
 					

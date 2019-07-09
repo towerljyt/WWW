@@ -12,7 +12,7 @@
 	<link href="/Public/gec/web/fonts/iconfont.css" rel="stylesheet">
 	<script src="/Public/gec/web/js/layer.js"></script>
 	<link rel="stylesheet" href="/Public/gec/web/css/stylef.css"/>
-	
+	<link rel="icon" href="/Public/gec/images/log.ico">
 	
 
 </head>
@@ -37,7 +37,7 @@
 		
 		
 		   <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><dt>
-                <a href="<?php echo U('Index/New/newsdetails',array('news_id'=>$vo['id']));?>" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger" style="color:#FFA500;">
+                <a href="<?php echo U('Index/New/newsdetails',array('news_id'=>$vo['id']));?>" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger" style="color:#72ABE8;">
                 
                 <?php echo ($vo["title"]); ?>
                 <span style="font-size:14px; float:right;"><?php echo (date("Y-m-d",$vo["addtime"])); ?></span>
@@ -62,10 +62,10 @@
 	<div class="footer">
     <ul>
         
-       <li><a href="<?php echo U('Index/Shop/plist');?>" class="block"><i class="fa fa-university" style="color:#D2691E;"></i>矿机商城</a></li>
-		<li><a href="<?php echo U('Index/Shop/orderlist');?>" class="block"><i class="fa fa-cart-arrow-down" style="color:#D2691E;"></i>我的矿机</a></li>
-		<li><a href="<?php echo U('Index/Emoney/index');?>" class="block"><i class="fa fa-line-chart" style="color:#D2691E;"></i>交易中心</a></li>
-        <li style="width:24%" ><a href="/" class="block"><i class="fa fa-laptop" style="color:#D2691E;"></i>个人首页</a></li>
+       <li><a href="<?php echo U('Index/Shop/plist');?>" class="block"><i class="fa fa-university" style="color:#72ABE8;"></i>矿机商城</a></li>
+		<li><a href="<?php echo U('Index/Shop/orderlist');?>" class="block"><i class="fa fa-cart-arrow-down" style="color:#72ABE8;"></i>我的矿机</a></li>
+		<li><a href="<?php echo U('Index/Emoney/index');?>" class="block"><i class="fa fa-line-chart" style="color:#72ABE8;"></i>交易中心</a></li>
+        <li style="width:24%" ><a href="/" class="block"><i class="fa fa-laptop" style="color:#72ABE8;"></i>个人首页</a></li>
     </ul>
 </div>
 	<!--底部结束-->

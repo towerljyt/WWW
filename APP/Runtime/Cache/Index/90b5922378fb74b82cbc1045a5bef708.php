@@ -37,7 +37,7 @@
 			</li>
 			<li>
 			     <input type="hidden" value="1" name="typeid"/>
-			<input type="button"  class="btn_submit_my" value="确认修改" idtype="myform1" style="width: 100%;height: 30px;line-height: 30px;border-radius: 5px;border: 0px; background-color:#FFA500;margin-top: 5px;color: #FFFFFF;-webkit-appearance: none;"/></li>
+			<input type="button"  class="btn_submit_my" value="确认修改" idtype="myform1" style="width: 100%;height: 30px;line-height: 30px;border-radius: 5px;border: 0px; background-color:#72ABE8;margin-top: 5px;color: #FFFFFF;-webkit-appearance: none;"/></li>
 		</ul>
 	</form>
 	
@@ -52,11 +52,11 @@
 			</li>
 			<li>
 			 <input type="hidden" value="2" name="typeid"/>
-			<input type="button" class="btn_submit_my" value="确认修改" idtype="myform2" style="width: 100%;height: 30px;line-height: 30px;border-radius: 5px;border: 0px; background-color:#FFA500;margin-top: 5px;color: #FFFFFF;-webkit-appearance: none;"/></li>
+			<input type="button" class="btn_submit_my" value="确认修改" idtype="myform2" style="width: 100%;height: 30px;line-height: 30px;border-radius: 5px;border: 0px; background-color:#72ABE8;margin-top: 5px;color: #FFFFFF;-webkit-appearance: none;"/></li>
 		</ul>
 	</form>
 	
-	<div style="text-align:right; width:80%; margin:0 auto;"><a href="<?php echo U('Index/Login/editPwd2');?>"><input type="button" value="交易密码找回>>" style="padding:5px 10px; background:#FFA500; color:#ffffff; border-radius:4px; border:0px;"></a></div>
+	<div style="text-align:right; width:80%; margin:0 auto;"><a href="<?php echo U('Index/Login/editPwd2');?>"><input type="button" value="交易密码找回>>" style="padding:5px 10px; background:#72ABE8; color:#ffffff; border-radius:4px; border:0px;"></a></div>
 </div>
 
 <script type="text/javascript">
@@ -98,10 +98,10 @@
 	<div class="footer">
     <ul>
         
-       <li><a href="<?php echo U('Index/Shop/plist');?>" class="block"><i class="fa fa-university" style="color:#D2691E;"></i>矿机商城</a></li>
-		<li><a href="<?php echo U('Index/Shop/orderlist');?>" class="block"><i class="fa fa-cart-arrow-down" style="color:#D2691E;"></i>我的矿机</a></li>
-		<li><a href="<?php echo U('Index/Emoney/index');?>" class="block"><i class="fa fa-line-chart" style="color:#D2691E;"></i>交易中心</a></li>
-        <li style="width:24%" ><a href="/" class="block"><i class="fa fa-laptop" style="color:#D2691E;"></i>个人首页</a></li>
+       <li><a href="<?php echo U('Index/Shop/plist');?>" class="block"><i class="fa fa-university" style="color:#72ABE8;"></i>矿机商城</a></li>
+		<li><a href="<?php echo U('Index/Shop/orderlist');?>" class="block"><i class="fa fa-cart-arrow-down" style="color:#72ABE8;"></i>我的矿机</a></li>
+		<li><a href="<?php echo U('Index/Emoney/index');?>" class="block"><i class="fa fa-line-chart" style="color:#72ABE8;"></i>交易中心</a></li>
+        <li style="width:24%" ><a href="/" class="block"><i class="fa fa-laptop" style="color:#72ABE8;"></i>个人首页</a></li>
     </ul>
 </div>
 	<!--底部结束-->

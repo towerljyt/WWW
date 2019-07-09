@@ -26,7 +26,7 @@
     .loginList{
         overflow: hidden;background: #4b79df;border-radius:5px ;
         margin-bottom:10px;
-		border: 1px solid #ff9728;
+		border: 1px solid #3374EB;
 border-radius: 40px;
 box-sizing: border-box;
     }
@@ -70,21 +70,21 @@ box-sizing: border-box;
 							<span data-type="2" style="float:right;width:50%;text-align:center;line-height:30px;color:#333;">English</span>
                 </div>--> </li> 
        <li class="comc-item"> 
-        <div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;border: 1px solid #ff9728;border-radius: 40px;box-sizing: border-box;width: 90%;height: 12vw;margin: 10px 1rem;padding: 10 5%;background: #fff;color: #ff9728;text-indent: 10px;outline: none;"> 
+        <div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;border: 1px solid #3374EB;border-radius: 40px;box-sizing: border-box;width: 90%;height: 12vw;margin: 10px 1rem;padding: 10 5%;background: #fff;color: #3374EB;text-indent: 10px;outline: none;"> 
          <div class="com-formbox"> 
           <label for="username"><i class="iconfont icon-user"></i>&nbsp;</label> 
           <span class="formbox-bd"> <input name="username" type="text" placeholder="请输入会员帐号" maxlength="11" id="txtUserName" class="input-txt" value="<?php echo ($rememberusername); ?>" /> </span>
          </div> 
         </div></li> 
        <li class="comc-item"> 
-        <div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;border: 1px solid #ff9728;border-radius: 40px;box-sizing: border-box;width: 90%;height: 12vw;margin: 10px 1rem;padding: 10 5%;background: #fff;color: #ff9728;text-indent: 10px;outline: none;"> 
+        <div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;border: 1px solid #3374EB;border-radius: 40px;box-sizing: border-box;width: 90%;height: 12vw;margin: 10px 1rem;padding: 10 5%;background: #fff;color: #3374EB;text-indent: 10px;outline: none;"> 
          <div class="com-formbox"> 
           <label for="password"><i class="iconfont icon-lock"></i>&nbsp;</label> 
           <span class="formbox-bd"> <input name="password" type="password" maxlength="20" id="txtUserPass" class="input-txt" placeholder="登陆密码" value="<?php echo ($rememberpassword); ?>" /> </span> 
          </div> 
         </div></li> 
        <li class="comc-item"> 
-        <div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;border: 1px solid #ff9728;border-radius: 40px;box-sizing: border-box;width: 90%;height: 12vw;margin: 10px 1rem;padding: 10 5%;background: #fff;color: #ff9728;text-indent: 10px;outline: none;"> 
+        <div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;border: 1px solid #3374EB;border-radius: 40px;box-sizing: border-box;width: 90%;height: 12vw;margin: 10px 1rem;padding: 10 5%;background: #fff;color: #3374EB;text-indent: 10px;outline: none;"> 
          <div class="com-formbox"> 
           <label for="verify"><i class="iconfont icon-lock"></i>&nbsp;</label> 
           <span class="formbox-bd"> <input name="verify" type="text" maxlength="20" id="verify" class="input-txt" placeholder="验证码" style="width:60%;" />  </span> <img src="<?php echo U('Sem/verify');?>" onclick="this.src='<?php echo U('Sem/verify','','');?>?'+Math.random();" width="80" height="30" />
