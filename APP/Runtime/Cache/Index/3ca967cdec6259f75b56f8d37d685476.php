@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="/Public/gec/web/css/jquery-weui.min.css" /> 
   <link rel="stylesheet" href="/Public/gec/reg/css/style.css" /> 
   <link rel="stylesheet" href="/Public/gec/reg/css/common.css" /> 
+  <link rel="icon" href="/Public/gec/images/log.ico">
   <style>
 	.wrapper{
 	min-height:auto;
